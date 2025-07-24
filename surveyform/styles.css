@@ -1,0 +1,54 @@
+body{
+  width:100%;
+  height:100vh;
+  background-image:url(https://t4.ftcdn.net/jpg/03/10/26/27/360_F_310262727_laUeq9XnEmT5W8EfFXVtDioU8wVPehGG.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  color:white;
+  font-family:sans-serit;
+  font-size:22px;
+  padding-top:20px;
+
+}
+#title, #descrption{
+  text-align:center;
+  margin:0;
+}
+#description{
+  font-style:italic;
+  margin-bottom:2em ;
+}
+form{
+  width:55%;
+  min-width:300px;
+  display:block;
+  padding:30px;
+  background-color:rgba(19,19,64,0.8);
+  margin:10px auto;
+}
+label{
+  display:block;
+  margin:0.5em 0 0.2em 0;
+}
+input,textarea,select{
+  margin:0 0 1.5em 0;
+  width:100%;
+  min-height:2.2em;
+}
+fieldset{
+  border:none;
+  padding-bottom:1em;
+}
+.inline{
+  width:unset;
+  margin:0 0.5em 0 0;
+  vertical-align:middle;
+
+}
+input[type="submit"]{
+  text-align:center;
+  background-color:rgb(83, 230, 122);
+}
+
